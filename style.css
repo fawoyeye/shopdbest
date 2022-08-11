@@ -5,7 +5,7 @@ background: #efe7bc;}
 .add,.cancel, .payment, .empty{background: #ffa384;border:none;width: 25vw;display:block;margin:1rem;padding:1rem;border-radius:display:inline; 2px;text-align:center;}
 p{margin: 1rem 1rem;color: #ffa384;font-weight:700}
 .addStyle{background: #ffa384;vertical-align:center;font-size:1rem;width: 25vw;color:white;padding: 0.5rem;height:auto;line-height:1.5}
-.flex{display:flex;flex-direction:row;width:90vw;height: 7rem;justify-content:space-evenly;color: white;animation:slide 0.5s 1;}
+.flex{display:flex;flex-direction:row;width:90vw;height: 9rem;justify-content:space-evenly;color: white;animation:slide 0.5s 1;}
 .button{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between;}
 i{color: black;z-index:5;position:absolute}
 @keyframes slide{
