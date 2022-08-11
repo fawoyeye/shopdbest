@@ -1,0 +1,36 @@
+
+body{font-family: 'Josefin Sans', sans-serif;
+max-width:100%;
+background: #efe7bc;}
+.add,.cancel, .payment, .empty{background: #ffa384;border:none;width: 25vw;display:block;margin:1rem;padding:1rem;border-radius:display:inline; 2px;text-align:center;}
+p{margin: 1rem 1rem;color: #ffa384;font-weight:700}
+.addStyle{background: #ffa384;vertical-align:center;font-size:1rem;width: 25vw;color:white;padding: 0.5rem;height:auto;line-height:1.5}
+.flex{display:flex;flex-direction:row;width:90vw;height: 7rem;justify-content:space-evenly;color: white;animation:slide 0.5s 1;}
+.button{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between;}
+i{color: black;z-index:5;position:absolute}
+@keyframes slide{
+				0%{margin-left:-800px;}100%{margin-left:0px;}
+}
+.container{width: 90vw;height: auto;}
+h1{color: #74bdcb;font-size:3rem;font-family:cursive;text-align:center;margin: 1rem auto;}
+input::placeholder{color: black;}
+.addstyle2, .totalStyle{width:35vw;background:#ffa384;vertical-align:center;font-size:1rem;color: white;padding: 0.5rem;height: auto;line-height:1.5;}
+input, select{border:none;background: #74bdcb;height: 2rem;width: 75vw;margin: 0 1rem;border-radius: 2px;}
+
+
+
+.front{display:flex;flex-direction:column;justify-content:center;}
+.front h1{font-size:3rem;margin: 30px auto;}
+img{width: 75vw;height: 75vw;background: #efe7bc;vertical-align:center;margin: 70px auto;}
+.front a{margin: auto;padding: 10px;border-radius: 7px;width: 50vw;background-color: #74bdcb;color: white;font-size:1.5rem;text-decoration:none;text-align:center;vertical-align:center;margin: 0.7rem auto;}
+.front h3{color: #74bdcb;line-height:1.5;margin: 20px auto;width: 50vw;text-align:center;}
+
+.space{height: 2rem;width: 75vw;color: #ffa384;font-size:1.5rem;text-align:center;margin:1rem auto;}
+.paymentParagraphStyle{background: #ffa384;vertical-align:center;font-size:1rem;width: 50vw;color: white;padding: 0.5rem;height: 2rem;line-height:1.5}
+.totalNumber{font-size:1rem;color: white;text-align:center;vertical-align:center;}
+.totalStyle{display:flex;flex-direction:column;background: #ffa384;color: white;width: 25vw;justify-content:center;}
+.totalLetter{font-size:1rem;color: white;}
+
+@media(min-width:600px){
+				:root{font-size:2rem;}
+}
