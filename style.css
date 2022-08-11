@@ -13,7 +13,7 @@ i{color: black;z-index:5;position:absolute}
 }
 .container{width: 90vw;height: auto;}
 h1{color: #74bdcb;font-size:3rem;font-family:cursive;text-align:center;margin: 1rem auto;}
-input::placeholder{color: black;}
+input::placeholder{color: black;font-size:1rem;}
 .addstyle2, .totalStyle{width:35vw;background:#ffa384;vertical-align:center;font-size:1rem;color: white;padding: 0.5rem;height: auto;}
 input, select{border:none;background: #74bdcb;height: 2rem;width: 75vw;margin: 0 1rem;border-radius: 2px;}
 
@@ -30,7 +30,8 @@ img{width: 75vw;height: 75vw;background: #efe7bc;vertical-align:center;margin: 7
 .totalNumber{font-size:1rem;color: white;text-align:center;vertical-align:center;}
 .totalStyle{display:flex;flex-direction:column;background: #ffa384;color: white;width: 25vw;justify-content:center;height:5rem;}
 .totalLetter{font-size:1rem;color: white;}
-
+input::placeholder{font-size:1rem;}
 @media(min-width:600px){
-				:root{font-size:2rem;}
+				img{width:50vw:height:50vw;margin:50px;}:root{font-size:2rem;}
 }
+@media()
