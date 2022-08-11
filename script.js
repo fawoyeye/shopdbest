@@ -88,7 +88,7 @@ var totalPay = document.getElementsByClassName('totalNumber');
 for(i=0;i<totalPay.length;i++){
 pe.innerText += `+${totalPay[i].innerText}`};
  var leg = eval(pe.innerText);
- space.innerText = `Hi Human, Your Total Amount is ${leg}. Thanks for shopping with the best` };
+ space.innerText = `Hi Human, Your Total Amount is ${leg} Naira. Thanks for shopping with the best` };
   
 }
 			
