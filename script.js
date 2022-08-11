@@ -96,7 +96,8 @@ pe.innerText += `+${totalPay[i].innerText}`};
 
 	
 			empty.onclick = function () {
-				container.innerHTML ="";	}
+				container.innerHTML ="";
+space.innerHTML="";	}
 quantity.onclick =function () {quantity.value="";}
 
 			
