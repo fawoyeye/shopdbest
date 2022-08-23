@@ -21,7 +21,7 @@ input, select{border:none;background: #74bdcb;height: 2rem;width: 75vw;margin: 0
 
 .front{display:flex;flex-direction:column;justify-content:center;}
 .front h1{font-size:3rem;margin: 30px auto;}
-img{width: 50vh;height: 50vh;background: #efe7bc;vertical-align:center;margin: 30px auto;}
+img{width: 50vw;height: 50vw;background: #efe7bc;vertical-align:center;margin: 30px auto;}
 .front a{margin: auto;padding: 10px;border-radius: 7px;width: 50vw;background-color: #74bdcb;color: white;font-size:1.5rem;text-decoration:none;text-align:center;vertical-align:center;margin: 0.7rem auto;}
 .front h3{color: #74bdcb;line-height:1;margin: 20px auto;width: 90vw;text-align:center;}
 
